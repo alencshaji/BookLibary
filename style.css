@@ -1,0 +1,103 @@
+body{
+      background-image: url(/images/img-1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+.main{
+   
+    margin: 0 auto;
+    width: 25rem;
+    padding: 1rem;
+    border-radius: 10%;
+  
+}
+.container{
+    
+   margin: 2rem;
+   margin-left: 1rem;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+}
+#id{
+    margin-bottom: 1rem;
+}
+input{
+    opacity: 80%;
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+textarea{
+    opacity: 80%;
+    margin-top: 7px;
+    padding: .5rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+.buttons{
+    margin: 2rem;
+
+}
+#add{
+  width: 100%;
+  padding: .6rem;
+  margin-bottom: 1rem;
+  background-color: rgb(15, 16, 15);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+}
+#search{
+  width: 100%;
+  padding: .6rem;
+  background-color: rgb(73, 74, 74);
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.err{
+    color: red;
+}
+#add:hover{
+    font-size: 16px;
+}
+#search:hover{
+    font-size: 16px;
+}
+@media screen and (max-width:462px) {
+    .main{
+        width: 20rem;
+    }
+}
+@media screen and (max-width:385px) {
+    .main{
+        width: 16rem;
+    }
+}
+@media screen and (max-width:320px) {
+    .main{
+        width: 12rem;
+    }
+    .buttons{
+        margin: 1rem;
+    
+    }
+    #add{
+        padding: .4rem;
+        margin-bottom: .8rem;
+      }
+      #search{
+        padding: .4rem;
+      }
+}

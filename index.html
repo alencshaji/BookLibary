@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Add Details Of Book</h1>
+        <div class="container">
+            <form action="">
+                <input type="number" id="id" placeholder="Book id">
+                <span id="error_1"  class="err"><p></p></span>
+                <input type="text" id="bookName" placeholder="Name of book">
+                <span id="error" class="err"><p></p></span>
+                <input type="text" id="author" placeholder="Author name">
+                <span id="error_2" class="err"><p></p></span>
+                <textarea name="describtion" id="describ" cols="30" rows="5" placeholder="Describtion"></textarea>
+                <div class="buttons">
+                    <div class="btn-1">
+                        <button type="button" onclick="addBook()" id="add">Add Book</button>
+                    </div>
+                    <div class="btn-2">
+                        <button type="submit" id="search"><a href='search.html'>Search Book</a></button>
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+<script src="main.js"></script>
+</html>

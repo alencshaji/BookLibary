@@ -1,0 +1,51 @@
+body{
+    background-image:url(/images/img-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+button{
+    text-decoration: none;
+    border: none;
+    background-color: black;
+}
+button a{
+    text-decoration: none;
+    color: rgb(229, 226, 226);
+   
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+.container{
+    width: 15rem;
+    margin: 0 auto;
+}
+input{
+    width: 100%;
+    border: none;
+    padding: .6rem;
+    border-radius: .5rem;
+}
+
+.details{
+    height: fit-content;
+    margin-top: 2rem;
+    width: 100%;
+    border-radius: .5rem;
+    color: aliceblue;
+}
+
+#btn_search{
+    margin: .5rem;
+    padding: .5rem;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: aqua;
+    border: none;
+}
+#btn_search:hover{
+    font-size: 16px;
+}
