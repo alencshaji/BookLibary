@@ -34,9 +34,9 @@ function search() {
     const detailsContainer = document.querySelector(".details");
     if (searchBookName in localStorage) {
         const searchobj = JSON.parse(localStorage.getItem(searchBookName));
-        document.getElementById("id_1").innerHTML = searchobj.id;
-        document.getElementById("name_1").innerHTML = searchobj.bookName;
-        document.getElementById("author_1").innerHTML = searchobj.author;
+        document.getElementById("id_1").innerHTML = `ID : ${searchobj.id}`;
+        document.getElementById("name_1").innerHTML =`Book Name : ${searchobj.bookName}`;
+        document.getElementById("author_1").innerHTML = `Author Name : ${searchobj.author}`;
         detailsContainer.style.display = "block";
         setTimeout(function () {
             detailsContainer.style.display = "none";
